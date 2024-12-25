@@ -1,3 +1,12 @@
 [submodule "navigation-client"]
 	path = navigation-client
 	url = git@github.com:Blankjr/navigation-client.git
+[submodule "navigation-server"]
+	path = navigation-server
+	url = git@github.com:Blankjr/navigation-server.git
+[submodule "room-info-website"]
+	path = room-info-website
+	url = git@github.com:Blankjr/hsd-room-info-website.git
+[submodule "admin-interface"]
+	path = admin-interface
+	url = git@github.com:Blankjr/admin-ui-freibewegen.git
