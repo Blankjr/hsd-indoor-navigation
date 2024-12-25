@@ -10,3 +10,6 @@
 [submodule "admin-interface"]
 	path = admin-interface
 	url = git@github.com:Blankjr/admin-ui-freibewegen.git
+[submodule "wlan-logger"]
+	path = wlan-logger
+	url = git@github.com:Blankjr/wlan-logger.git
