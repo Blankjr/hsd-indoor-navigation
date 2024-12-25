@@ -1,10 +1,8 @@
 # HSD Indoor Navigation System
-
 A comprehensive indoor navigation solution for Building 4 at Hochschule Düsseldorf, designed with accessibility as a core principle. The system provides barrier-free navigation through WLAN positioning, audio feedback, and intuitive interfaces.
 
 ## System Architecture
-
-This project consists of four main components:
+This project consists of five main components:
 
 ### 1. Navigation Client (React Native)
 Mobile application providing:
@@ -33,31 +31,40 @@ Tool for system configuration:
 - Grid square visualization
 - Route testing and validation
 
-## Getting Started
+### 5. WLAN Logger (React Native)
+Mobile application for creating the WLAN fingerprint dataset:
+- Floor-based WLAN signal mapping
+- Interactive position marking on floor plans
+- Comprehensive network scanning features
+- Data export and server synchronization
 
+## Getting Started
 1. Clone the repository with submodules:
 ```bash
 git clone --recursive https://github.com/Blankjr/hsd-indoor-navigation.git
 ```
+
 2. Follow setup instructions in each component's README:
     - Navigation Server Setup
     - Navigation Client Setup
     - Room Info Website Setup
     - Admin Interface Setup
+    - WLAN Logger Setup
+
 ## Development
 Each component can be developed independently, but for full system testing:
-
 1. Start the navigation server
 2. Launch the room info website
 3. Run the navigation client
 4. Use admin interface for testing if wlan fingerprinting mode deactivated
+5. Use WLAN logger for fingerprint dataset creation
 
 ## Technology Stack
-
 - Client: React Native, TypeScript, React Native Paper
 - Server: Hono.js, Node.js, TypeScript
 - Website: SvelteKit, TypeScript, TailwindCSS
 - Admin UI: HTML, JavaScript, CSS
+- WLAN Logger: React Native, TypeScript, React Native Paper
 
 ## Project Background
 This system was developed as part of a Bachelor's thesis focusing on barrier-free indoor navigation. It combines WLAN positioning with accessible interfaces to provide navigation assistance for users with different needs.
