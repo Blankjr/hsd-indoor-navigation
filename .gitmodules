@@ -1,0 +1,3 @@
+[submodule "navigation-client"]
+	path = navigation-client
+	url = git@github.com:Blankjr/navigation-client.git
