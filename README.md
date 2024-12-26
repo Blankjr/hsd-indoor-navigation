@@ -68,3 +68,9 @@ Each component can be developed independently, but for full system testing:
 
 ## Project Background
 This system was developed as part of a Bachelor's thesis focusing on barrier-free indoor navigation. It combines WLAN positioning with accessible interfaces to provide navigation assistance for users with different needs.
+
+## Acknowledgments
+
+Prof. Dr. Manfred Wojciechowski - Project Supervisor
+Dipl.-Ing. (FH) Patrick Pogscheba M.Sc. - Second Examiner
+Faculty of Media, Hochschule Düsseldorf
