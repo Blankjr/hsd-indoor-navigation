@@ -71,6 +71,6 @@ This system was developed as part of a Bachelor's thesis focusing on barrier-fre
 
 ## Acknowledgments
 
-Prof. Dr. Manfred Wojciechowski - Project Supervisor
-Dipl.-Ing. (FH) Patrick Pogscheba M.Sc. - Second Examiner
-Faculty of Media, Hochschule Düsseldorf
+- Prof. Dr. Manfred Wojciechowski - Project Supervisor
+- Dipl.-Ing. (FH) Patrick Pogscheba M.Sc. - Second Examiner
+- Faculty of Media, Hochschule Düsseldorf
