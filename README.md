@@ -1,6 +1,32 @@
 # HSD Indoor Navigation System
 A comprehensive indoor navigation solution for Building 4 at Hochschule Düsseldorf, designed with accessibility as a core principle. The system provides barrier-free navigation through WLAN positioning, audio feedback, and intuitive interfaces.
 
+## Screenshots
+<details>
+  <summary>📱 Navigation Client</summary>
+  <p align="center">
+    <img src="screenshots/navigation-client/search-visual.jpg" width="250" alt="Visual search interface" />
+    <img src="screenshots/navigation-client/search-tactile.jpg" width="250" alt="Tactile search interface" />
+    <img src="screenshots/navigation-client/settings.jpg" width="250" alt="Settings screen" />
+    
+    
+  </p>
+  <p align="center">
+    <img src="screenshots/navigation-client/navigation-visual.jpg" width="250" alt="Visual navigation mode" />
+    <img src="screenshots/navigation-client/navigation-tactile-live-switching-waypoint.jpg" width="250" alt="Tactile navigation with live waypoint switching" />
+    <img src="screenshots/navigation-client/webview.jpg" width="250" alt="Webview display" />
+  </p>
+</details>
+
+<details>
+  <summary>📱 WLAN Logger</summary>
+  <p align="center">
+    <img src="screenshots/wlan-logger/wlan-logger-map.jpg" width="250" alt="WLAN logger map view" />
+    <img src="screenshots/wlan-logger/wlan-logger-scan-results-1.jpg" width="250" alt="WLAN scan results view 1" />
+    <img src="screenshots/wlan-logger/wlan-logger-scan-results-2.jpg" width="250" alt="WLAN scan results view 2" />
+  </p>
+</details>
+
 ## System Architecture
 This project consists of five main components:
 
