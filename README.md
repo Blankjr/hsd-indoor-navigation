@@ -8,8 +8,6 @@ A comprehensive indoor navigation solution for Building 4 at Hochschule Düsseld
     <img src="screenshots/navigation-client/search-visual.jpg" width="250" alt="Visual search interface" />
     <img src="screenshots/navigation-client/search-tactile.jpg" width="250" alt="Tactile search interface" />
     <img src="screenshots/navigation-client/settings.jpg" width="250" alt="Settings screen" />
-    
-    
   </p>
   <p align="center">
     <img src="screenshots/navigation-client/navigation-visual.jpg" width="250" alt="Visual navigation mode" />
