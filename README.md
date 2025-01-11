@@ -66,6 +66,49 @@ Each component can be developed independently, but for full system testing:
 - Admin UI: HTML, JavaScript, CSS
 - WLAN Logger: React Native, TypeScript, React Native Paper
 
+## Library Selection Rationale
+### React Native
+Selected as the primary framework for mobile app development for:
+- **Cross-Platform Development**: Enables simultaneous iOS/Android development, reducing costs through shared codebase
+- **Native Performance**: Direct access to native UI components with optimized bridge architecture
+- **Developer Ecosystem**: Large, active community with comprehensive documentation
+- **Maintainability**: Modular architecture enabling easy maintenance and updates
+
+### React Native Paper
+Chosen as the UI component library for:
+- **Material Design**: Complete implementation of Material Design specifications
+- **Accessibility**: Native support for accessibility features, WCAG-compliant
+- **Customization**: Flexible theming system with consistent styling API
+- **Support**: Regular updates and active maintainer community
+
+### React Native Tethering (WiFi Module)
+Selected as the WiFi scanning solution because:
+- **Up-to-date APIs**: Uses latest Android WiFi classes, unlike outdated alternatives
+- **Comprehensive Scanning**: Enables scanning of all available WiFi networks, not just connected ones
+- **TypeScript Support**: Fully typed module enhancing development experience
+- **Modern Android Support**: Specifically built for Android 10 and above
+
+### Hono.js
+Selected as backend framework for:
+- **Lightweight Architecture**: Minimal overhead with fast execution times
+- **TypeScript Integration**: Native support enhancing developer experience
+- **Modern API Design**: REST-compliant with flexible request handling
+- **Performance**: Optimized HTTP processing with efficient caching
+
+### SvelteKit
+Chosen for the room information website due to:
+- **Simplicity**: Lighter alternative to meta-frameworks like Next.js or Astro
+- **Performance**: Efficient server-side rendering with minimal client-side JavaScript
+- **File-based Routing**: Intuitive project structure and routing system
+- **Full-stack Capabilities**: Built-in API routes and server-side logic
+
+### Admin Interface (HTML/JavaScript)
+Implemented as a standalone solution for:
+- **Simplicity**: Basic HTML/JavaScript sufficient for single-purpose testing interface
+- **Separation of Concerns**: Originally planned as REST API route, separated for cleaner architecture
+- **Maintainability**: Easy to modify without impacting core navigation server
+- **Independence**: Can be deployed and updated separately from main components
+
 ## Project Background
 This system was developed as part of a Bachelor's thesis focusing on barrier-free indoor navigation. It combines WLAN positioning with accessible interfaces to provide navigation assistance for users with different needs.
 
