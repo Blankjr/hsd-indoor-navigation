@@ -1,6 +1,34 @@
 # HSD Indoor Navigation System
 A comprehensive indoor navigation solution for Building 4 at Hochschule Düsseldorf, designed with accessibility as a core principle. The system provides barrier-free navigation through WLAN positioning, audio feedback, and intuitive interfaces.
 
+## Screenshots
+<details>
+  <summary>📱 Navigation Client</summary>
+  <table>
+    <tr>
+      <td align="center"><img src="screenshots/navigation-client/search-visual.jpg" width="250" alt="Visual search interface" /></td>
+      <td align="center"><img src="screenshots/navigation-client/search-tactile.jpg" width="250" alt="Tactile search interface" /></td>
+      <td align="center"><img src="screenshots/navigation-client/settings.jpg" width="250" alt="Settings screen" /></td>
+    </tr>
+    <tr>
+      <td align="center"><img src="screenshots/navigation-client/navigation-visual.jpg" width="250" alt="Visual navigation mode" /></td>
+      <td align="center"><img src="screenshots/navigation-client/navigation-tactile-live-switching-waypoint.jpg" width="250" alt="Tactile navigation with live waypoint switching" /></td>
+      <td align="center"><img src="screenshots/navigation-client/webview.jpg" width="250" alt="Webview display" /></td>
+    </tr>
+  </table>
+</details>
+
+<details>
+  <summary>📱 WLAN Logger</summary>
+  <table>
+    <tr>
+      <td align="center"><img src="screenshots/wlan-logger/wlan-logger-map.jpg" width="250" alt="WLAN logger map view" /></td>
+      <td align="center"><img src="screenshots/wlan-logger/wlan-logger-scan-results-1.jpg" width="250" alt="WLAN scan results view 1" /></td>
+      <td align="center"><img src="screenshots/wlan-logger/wlan-logger-scan-results-2.jpg" width="250" alt="WLAN scan results view 2" /></td>
+    </tr>
+  </table>
+</details>
+
 ## System Architecture
 This project consists of five main components:
 
