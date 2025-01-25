@@ -94,6 +94,24 @@ Each component can be developed independently, but for full system testing:
 - Admin UI: HTML, JavaScript, CSS
 - WLAN Logger: React Native, TypeScript, React Native Paper
 
+## Accessibility Implementation
+### Audio Descriptions
+Room and waypoint descriptions are generated using ElevenLabs' text-to-speech API with the `eleven_multilingual_v2` model, selected after extensive quality testing:
+
+Tested Solutions:
+- ElevenLabs: Selected for best overall audio quality and natural-sounding German speech
+  - Model: eleven_multilingual_v2 
+  - Optimized for multiple languages including German
+- Amazon Polly: Good quality but less natural intonation for German
+- Google Cloud TTS: Decent quality but more robotic compared to ElevenLabs
+- Mozilla TTS: Open-source alternative but less consistent quality
+- Coqui TTS: Open-source solution with good potential but requiring more fine-tuning for German
+
+Audio specifications:
+- Format: MP3
+- Bit Rate: 320kbps (high quality)
+- Average Duration: ~30 seconds per description
+
 ## Library Selection Rationale
 ### React Native
 Selected as the primary framework for mobile app development for:
