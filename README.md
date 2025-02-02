@@ -102,7 +102,7 @@ Tested Solutions:
 - ElevenLabs: Selected for best overall audio quality and natural-sounding German speech
   - Model: eleven_multilingual_v2 
   - Optimized for multiple languages including German
-- Amazon Polly: Good quality but less natural intonation for German
+- Amazon Polly: Good quality but less natural accentuation for German
 - Google Cloud TTS: Decent quality but more robotic compared to ElevenLabs
 - Mozilla TTS: Open-source alternative but less consistent quality
 - Coqui TTS: Open-source solution with good potential but requiring more fine-tuning for German
@@ -124,6 +124,10 @@ Selected as the primary framework for mobile app development for:
 Chosen as the UI component library for:
 - **Material Design**: Complete implementation of Material Design specifications
 - **Accessibility**: Native support for accessibility features, WCAG-compliant
+- **Native Standard Alignment**: Follows platform-specific design patterns that users are familiar with
+- **Simplicity Over Aesthetics**: Prioritizes understandable, functional interfaces over modern design trends
+- **Ease of Implementation**: Simpler learning curve compared to styled-component based alternatives
+- **Maintenance Considerations**: More accessible to future maintainers
 - **Customization**: Flexible theming system with consistent styling API
 - **Support**: Regular updates and active maintainer community
 
@@ -133,6 +137,9 @@ Selected as the WiFi scanning solution because:
 - **Comprehensive Scanning**: Enables scanning of all available WiFi networks, not just connected ones
 - **TypeScript Support**: Fully typed module enhancing development experience
 - **Modern Android Support**: Specifically built for Android 10 and above
+- **Infrastructure Utilization**: Leverages existing WLAN infrastructure without additional hardware
+- **Cost Efficiency**: No additional hardware investment required compared to BLE beacons
+- **Maintenance Free**: No physical components requiring regular maintenance
 
 ### Hono.js
 Selected as backend framework for:
